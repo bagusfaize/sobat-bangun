@@ -1,9 +1,8 @@
 import React from 'react'
 import { GoCheckCircleFill } from "react-icons/go";
 import Button from './Button';
-import { BrandDetails, MainTitle, HouseSpecs } from "@/components";
+import { BrandDetails, MainTitle, HouseSpecs, Pricing } from "@/components";
 import { DetailsProps } from '@/types';
-import Pricing from './Pricing';
 
 interface DetailsCardProps {
   details: DetailsProps
@@ -39,6 +38,7 @@ export default function DetailsCard({ details }: DetailsCardProps) {
           wide={wide}
           floor={floor}
           bed={bed}
+          className="border-y border-gray-200"
         />
         <Pricing
           designPrice={designPrice}

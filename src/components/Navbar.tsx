@@ -28,11 +28,11 @@ export default function Navbar() {
                 <span className="flex">
                     <Button
                         text="Daftar"
-                        className="bg-white btn-small hover:bg-slate-100"
+                        className="bg-white btn-small hover:bg-slate-100 mx-1"
                     />
                     <Button
                         text="Masuk"
-                        className="text-white bg-primary-red hover:bg-primary-red-darker btn-small"
+                        className="text-white bg-primary-red hover:bg-primary-red-darker btn-small mx-1"
                     />
                 </span>
             </header>

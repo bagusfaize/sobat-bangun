@@ -2,7 +2,7 @@ import { HouseSpecsProps } from '@/types'
 import Image from 'next/image'
 import React from 'react'
 
-export default function HouseSpecs({ dimension, wide, floor, bed }: HouseSpecsProps) {
+export default function HouseSpecs({ dimension, wide, floor, bed, className }: HouseSpecsProps) {
     const specs = [
         {
             title: "Dimensi Tanah",
@@ -26,7 +26,7 @@ export default function HouseSpecs({ dimension, wide, floor, bed }: HouseSpecsPr
         }
     ]
     return (
-        <div className="flex justify-between py-3 border-y border-gray-200">
+        <div className={`flex justify-between py-3 ${className}`}>
             {
                 specs.map(item => {
                     return (

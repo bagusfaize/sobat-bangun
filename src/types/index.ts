@@ -17,7 +17,8 @@ export interface ImageCardProps {
 }
 
 export interface MainTitleProps {
-    title: string
+    title: string,
+    className?: string
 }
 
 export interface DetailsProps {
@@ -43,7 +44,8 @@ export interface HouseSpecsProps {
     dimension: string
     wide: number
     floor: number
-    bed: number
+    bed: number,
+    className?: string
 }
 
 export interface PricingProps {
@@ -55,4 +57,19 @@ export interface ReviewProps {
     username: string,
     star: number,
     review: string
+}
+
+export interface SuggestionsProps {
+    title: string,
+    logo: string,
+    brand: string,
+    image: string,
+    houseType: string,
+    designType: string,
+    dimension: string,
+    wide: number,
+    floor: number,
+    bed: number,
+    designPrice: string,
+    constructionPrice: string
 }
