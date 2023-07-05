@@ -2,7 +2,7 @@ import { ImageCardProps } from '@/types'
 import Image from 'next/image';
 import React from 'react'
 
-export default function SpecsCard({ title, desc, imagePath }: ImageCardProps) {
+export default function ImageCard({ title, desc, imagePath }: ImageCardProps) {
     return (
         <div className="specs-card">
             <Image src={imagePath} alt={title} width={500} height={500} />
