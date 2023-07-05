@@ -19,7 +19,7 @@ export default function ImageWithDetails({ details }: ImageWithDetails) {
             <Image src={image} alt={title} width={500} height={500} />
             <div className="flex items-center mt-2">
                 <MainTitle title={title} />
-                <span className="mx-3 py-1 px-3 text-xs bg-gray-100 rounded-xl">{houseType}</span>
+                <span className="ml-3 py-1 px-3 text-xs bg-gray-100 rounded-xl">{houseType}</span>
             </div>
             <BrandDetails
                 logo={logo}
@@ -30,7 +30,8 @@ export default function ImageWithDetails({ details }: ImageWithDetails) {
                 wide={wide}
                 floor={floor}
                 bed={bed}
-                className="border-b border-gray-200"
+                containerClassName="border-b border-gray-200"
+                childClassName="col-span-6 mb-4 lg:col-span-3"
             />
             <Pricing
                 designPrice={designPrice}

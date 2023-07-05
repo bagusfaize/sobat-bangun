@@ -38,7 +38,8 @@ export default function DetailsCard({ details }: DetailsCardProps) {
           wide={wide}
           floor={floor}
           bed={bed}
-          className="border-y border-gray-200"
+          containerClassName="border-y border-gray-200"
+          childClassName="col-span-3"
         />
         <Pricing
           designPrice={designPrice}

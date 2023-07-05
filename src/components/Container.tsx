@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Container({children} : ContainerProps) {
   return (
-    <div className="container px-10">
+    <div className="lg:container px-5 lg:px-10 mx-auto">
         {children}
     </div>
   )

@@ -9,13 +9,13 @@ export default function Home() {
       <ImageCarousel />
       <Container>
         <div className="grid grid-cols-12 gap-10 my-5">
-          <div className="col-span-8">
+          <div className=" col-span-12 md:col-span-6 lg:col-span-8">
             <MainTitle title="Tampilan Rumah" />
             <div className="grid grid-cols-12 gap-3">
               {
                 images.map(item => {
                   return (
-                    <div className="col-span-4">
+                    <div className="col-span-6 lg:col-span-4">
                       <ImageCard
                         title={item.title}
                         desc={item.desc}
@@ -27,7 +27,7 @@ export default function Home() {
               }
             </div>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 md:col-span-6 lg:col-span-4">
             <DetailsCard details={details} />
             <div className="my-5">
               <MainTitle title="Testimoni" />
@@ -45,13 +45,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-20 mb-5">
+        <div className="mt-16 lg:mt-14 mb-10">
           <MainTitle title="Desain Lainnya oleh Studio SAe" className="mb-5" />
           <div className="grid grid-cols-12 gap-3">
             {
               suggestions.map(item => {
                 return (
-                  <div className="col-span-3">
+                  <div className="col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3">
                     <ImageWithDetails details={item} />
                   </div>
                 )

@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel'
 import { BiSolidChevronRight, BiSolidChevronLeft } from 'react-icons/bi';
 
-
 export default function ImageCarousel() {
   return (
     <div className="custom-carousel">
@@ -17,7 +16,7 @@ export default function ImageCarousel() {
           return(
             <div 
               onClick={onClick}
-              className="absolute bg-white top-52 left-10 h-10 flex justify-center items-center p-3 cursor-pointer border border-primary-red z-10">
+              className="absolute bg-white inset-y-1/2 left-10 h-10 flex justify-center items-center p-3 cursor-pointer border border-primary-red z-10">
               <BiSolidChevronLeft/>
             </div>
             )
@@ -26,7 +25,7 @@ export default function ImageCarousel() {
           return(
           <div 
             onClick={onClick}
-            className="absolute bg-white top-52 right-10 h-10 flex justify-center items-center p-3 cursor-pointer border border-primary-red z-10">
+            className="absolute bg-white inset-y-1/2 right-10 h-10 flex justify-center items-center p-3 cursor-pointer border border-primary-red z-10">
             <BiSolidChevronRight/>
           </div>
           )

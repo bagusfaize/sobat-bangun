@@ -8,27 +8,10 @@
   font-family: 'Source Sans 3', sans-serif;
 }
 
-/* HEADER */
-
-.header {
-  @apply w-full z-50 flex bg-white items-center justify-between container mx-auto px-16 py-5;
-}
-
-.navbar {
-  @apply flex space-x-1 text-sm font-semibold ;
-}
-
-.navbar-list {
-  @apply flex items-center px-2;
-}
-.navbar-list:hover {
-  @apply text-primary-red;
-}
-
-
+/* BREADCUMBS */
 
 .breadcumbs {
-  @apply flex container mx-auto px-16;
+  @apply flex container mx-auto;
 }
 
 .breadcumb-items {
@@ -48,13 +31,13 @@
 }
 
 .custom-carousel {
-  @apply flex bg-cyan-500 h-96;
+  @apply h-auto;
 }
 
 /* BUTTON */
 
 .custom-btn {
-  @apply flex justify-center py-3 px-6 mx-2 rounded-md font-semibold;
+  @apply flex justify-center py-3 px-6 rounded-md font-semibold;
 }
 
 .btn-small {

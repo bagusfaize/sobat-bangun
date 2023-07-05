@@ -45,7 +45,8 @@ export interface HouseSpecsProps {
     wide: number
     floor: number
     bed: number,
-    className?: string
+    containerClassName?: string,
+    childClassName?: string
 }
 
 export interface PricingProps {

@@ -56,7 +56,7 @@ export default function Footer() {
     <div className="bg-dark-blue text-white py-8">
       <Container>
         <div className="grid grid-cols-12 gap-10 mb-10">
-          <div className="col-span-7">
+          <div className="col-span-12 md:col-span-7">
             <div className="flex flex-col">
               <Image src="/icons/logo_grayscale.svg" alt="logo" width={150} height={50} className="mb-5"/>
               <p className="text-sm mb-5">SobatBangun adalah platform digital dari SIG yang bergerak dengan misi mengembangkan proses pembangunan dan renovasi rumah secara lebih baik serta berkelanjutan.</p>
@@ -80,7 +80,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-span-5">
+          <div className="col-span-12 md:col-span-5 gap-4">
             <div className="grid grid-cols-2" >
               {
                 link.map(item => {
@@ -95,7 +95,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-10 mb-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:gap-10 mb-10">
           {
             partnership.map(item => {
               return(
@@ -115,10 +115,10 @@ export default function Footer() {
             })
           }
         </div>
-        <div className="flex justify-between text-xs">
+        <div className="flex justify-between text-xs items-end">
           <span className="flex items-center">
             <p>Powered by : </p>
-            <Image src="/images/logo_sig.png" alt="logo-sig" width={50} height={50} className="mx-2" />
+            <Image src="/images/logo_sig.png" alt="logo-sig" width={60} height={60} className="mx-4" />
           </span>
           <span>Copyright &copy; 2023  SobatBangun. All rights reserved.</span>
         </div>
