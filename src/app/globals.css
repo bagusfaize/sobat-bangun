@@ -1,27 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  font-family: 'Source Sans 3', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* HEADER */
+
+.header {
+  @apply w-full z-50 flex bg-white items-center justify-between container mx-auto px-20 py-5;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navbar {
+  @apply flex space-x-1 text-sm font-semibold ;
+}
+
+.navbar-list {
+  @apply flex items-center px-2;
+}
+.navbar-list:hover {
+  @apply text-primary-red;
+}
+
+.breadcumbs {
+  @apply flex items-center;
+}
+
+.custom-carousel {
+  @apply flex bg-cyan-500 h-96;
+}
+
+/* BUTTON */
+
+.custom-btn {
+  @apply flex justify-center py-3 px-6 mx-2 rounded-md font-semibold;
+}
+
+.btn-small {
+  @apply px-4 py-2;
 }
