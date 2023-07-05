@@ -7,6 +7,9 @@ import Button from "./Button";
 import Container from "./Container";
 import ImageCard from "./ImageCard";
 import ContentTitle from "./ContentTitle";
+import DetailsCard from "./DetailsCard";
+import BrandDetails from "./BrandDetails";
+import HouseSpecs from "./HouseSpecs";
 
 export {
     Navbar,
@@ -17,5 +20,8 @@ export {
     Button,
     Container,
     ImageCard,
-    ContentTitle
+    ContentTitle,
+    DetailsCard,
+    BrandDetails,
+    HouseSpecs
 }
