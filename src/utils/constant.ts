@@ -71,5 +71,22 @@ export const designDetails = {
             desc: "4.0 x 3.4",
             imagePath: "/images/house-spec-2.png"
           }
+    ],
+    reviews: [
+        {
+            username: "Budi Setiadi",
+            star: 4.5,
+            review: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun."
+        },
+        {
+            username: "Budi Setiadi",
+            star: 4.5,
+            review: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun."
+        },
+        {
+            username: "Budi Setiadi",
+            star: 4.5,
+            review: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun."
+        }
     ]
 };

@@ -1,7 +1,7 @@
 import React from 'react';
-import { ContentTitleProps } from "@/types";
+import { MainTitleProps } from "@/types";
 
-export default function ContentTitle({title} : ContentTitleProps) {
+export default function MainTitle({title} : MainTitleProps) {
   return (
     <div className="text-xl font-semibold my-2">
         {title}

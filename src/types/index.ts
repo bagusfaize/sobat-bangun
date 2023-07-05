@@ -16,7 +16,7 @@ export interface ImageCardProps {
     imagePath: string
 }
 
-export interface ContentTitleProps {
+export interface MainTitleProps {
     title: string
 }
 
@@ -49,4 +49,10 @@ export interface HouseSpecsProps {
 export interface PricingProps {
     designPrice: string,
     constructionPrice: string
+}
+
+export interface ReviewProps {
+    username: string,
+    star: number,
+    review: string
 }

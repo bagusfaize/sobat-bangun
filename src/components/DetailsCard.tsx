@@ -1,7 +1,7 @@
 import React from 'react'
 import { GoCheckCircleFill } from "react-icons/go";
 import Button from './Button';
-import { BrandDetails, ContentTitle, HouseSpecs } from "@/components";
+import { BrandDetails, MainTitle, HouseSpecs } from "@/components";
 import { DetailsProps } from '@/types';
 import Pricing from './Pricing';
 
@@ -16,7 +16,7 @@ export default function DetailsCard({ details }: DetailsCardProps) {
     constructionPrice} = details;
   return (
     <div className="border border-gray-200 rounded-xl py-3 px-5 bg-white">
-        <ContentTitle title={title} />
+        <MainTitle title={title} />
         <BrandDetails
           logo={logo}
           brand={brand}

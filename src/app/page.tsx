@@ -1,8 +1,8 @@
-import { Breadcumbs, Container, ContentTitle, ImageCarousel, ImageCard, DetailsCard } from '@/components'
+import { Breadcumbs, Container, MainTitle, ImageCarousel, ImageCard, DetailsCard, Review } from '@/components'
 import { designDetails } from '@/utils/constant'
 
 export default function Home() {
-  const {details, images} = designDetails;
+  const {details, images, reviews} = designDetails;
   return (
     <div className="content">
       <Breadcumbs />
@@ -10,7 +10,7 @@ export default function Home() {
       <Container>
         <div className="grid grid-cols-12 gap-5 py-5">
           <div className="col-span-8">
-            <ContentTitle title="Tampilan Rumah" />
+            <MainTitle title="Tampilan Rumah" />
             <div className="grid grid-cols-12 gap-2">
               {
                 images.map(item => {
@@ -29,6 +29,20 @@ export default function Home() {
           </div>
           <div className="col-span-4">
             <DetailsCard details={details} />
+            <div className="my-5">
+              <MainTitle title="Testimoni" />
+              {
+                reviews.map(item => {
+                  return(
+                    <Review
+                      username={item.username}
+                      star={item.star}
+                      review={item.review}
+                    />
+                  )
+                })
+              }
+            </div>
           </div>
         </div>
       </Container>

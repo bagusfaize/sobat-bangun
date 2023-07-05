@@ -6,10 +6,11 @@ import ImageCarousel from "./ImageCarousel";
 import Button from "./Button";
 import Container from "./Container";
 import ImageCard from "./ImageCard";
-import ContentTitle from "./ContentTitle";
+import MainTitle from "./MainTitle";
 import DetailsCard from "./DetailsCard";
 import BrandDetails from "./BrandDetails";
 import HouseSpecs from "./HouseSpecs";
+import Review from "./Review";
 
 export {
     Navbar,
@@ -20,8 +21,9 @@ export {
     Button,
     Container,
     ImageCard,
-    ContentTitle,
+    MainTitle,
     DetailsCard,
     BrandDetails,
-    HouseSpecs
+    HouseSpecs,
+    Review
 }
