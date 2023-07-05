@@ -88,5 +88,63 @@ export const designDetails = {
             star: 4.5,
             review: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun."
         }
+    ],
+    suggestions: [
+        {
+            title: "Omah Apik 1",
+            logo: "/icons/sae_logo.svg",
+            brand: "Studio SAe",
+            image: '/images/house-other.png',
+            houseType: "Scandinavian",
+            designType: "Dapat Dimodifikasi",
+            dimension: "15 x 8m",
+            wide: 112,
+            floor: 2,
+            bed: 4,
+            designPrice: "Rp 32.500.000",
+            constructionPrice: "Rp 560.000.000"
+        },
+        {
+            title: "Omah Apik 2",
+            logo: "/icons/sae_logo.svg",
+            brand: "Studio SAe",
+            image: '/images/house-other.png',
+            houseType: "Scandinavian",
+            designType: "Dapat Dimodifikasi",
+            dimension: "15 x 8m",
+            wide: 112,
+            floor: 2,
+            bed: 4,
+            designPrice: "Rp 32.500.000",
+            constructionPrice: "Rp 560.000.000"
+        },
+        {
+            title: "Omah Apik 3",
+            logo: "/icons/sae_logo.svg",
+            brand: "Studio SAe",
+            image: '/images/house-other.png',
+            houseType: "Scandinavian",
+            designType: "Dapat Dimodifikasi",
+            dimension: "15 x 8m",
+            wide: 112,
+            floor: 2,
+            bed: 4,
+            designPrice: "Rp 32.500.000",
+            constructionPrice: "Rp 560.000.000"
+        },
+        {
+            title: "Omah Apik 4",
+            logo: "/icons/sae_logo.svg",
+            brand: "Studio SAe",
+            image: '/images/house-other.png',
+            houseType: "Scandinavian",
+            designType: "Dapat Dimodifikasi",
+            dimension: "15 x 8m",
+            wide: 112,
+            floor: 2,
+            bed: 4,
+            designPrice: "Rp 32.500.000",
+            constructionPrice: "Rp 560.000.000"
+        }
     ]
 };
