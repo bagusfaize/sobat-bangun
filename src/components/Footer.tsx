@@ -55,7 +55,7 @@ export default function Footer() {
   return (
     <div className="bg-dark-blue text-white py-8">
       <Container>
-        <div className="grid grid-cols-12 gap-10 mb-10">
+        <div className="grid grid-cols-12 md:gap-10 mb-10">
           <div className="col-span-12 md:col-span-7">
             <div className="flex flex-col">
               <Image src="/icons/logo_grayscale.svg" alt="logo" width={150} height={50} className="mb-5"/>

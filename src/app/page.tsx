@@ -8,7 +8,7 @@ export default function Home() {
       <Breadcumbs />
       <ImageCarousel />
       <Container>
-        <div className="grid grid-cols-12 gap-10 my-5">
+        <div className="grid grid-cols-12 md:gap-10 my-5">
           <div className=" col-span-12 md:col-span-6 lg:col-span-8">
             <MainTitle title="Tampilan Rumah" />
             <div className="grid grid-cols-12 gap-3">
