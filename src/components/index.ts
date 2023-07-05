@@ -11,6 +11,8 @@ import DetailsCard from "./DetailsCard";
 import BrandDetails from "./BrandDetails";
 import HouseSpecs from "./HouseSpecs";
 import Review from "./Review";
+import ImageWithDetails from "./ImageWithDetails";
+import Pricing from "./Pricing";
 
 export {
     Navbar,
@@ -25,5 +27,7 @@ export {
     DetailsCard,
     BrandDetails,
     HouseSpecs,
-    Review
+    Review,
+    ImageWithDetails,
+    Pricing
 }
