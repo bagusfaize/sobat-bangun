@@ -11,7 +11,7 @@
 /* HEADER */
 
 .header {
-  @apply w-full z-50 flex bg-white items-center justify-between container mx-auto px-20 py-5;
+  @apply w-full z-50 flex bg-white items-center justify-between container mx-auto px-16 py-5;
 }
 
 .navbar {
@@ -25,8 +25,26 @@
   @apply text-primary-red;
 }
 
+
+
 .breadcumbs {
+  @apply flex container mx-auto px-16;
+}
+
+.breadcumb-items {
   @apply flex items-center;
+}
+
+.breadcumb-items {
+  @apply text-light-grey font-semibold text-sm py-4;
+}
+
+.breadcumb-items:not(:last-child) .breadcumb-label{
+  @apply text-primary-red;
+}
+
+.breadcumb-items:last-child .breadcumb-label {
+  @apply text-grey;
 }
 
 .custom-carousel {
