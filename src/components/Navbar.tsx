@@ -43,7 +43,7 @@ export default function Navbar() {
                     {isOpen ? <RxCross1 fontSize={30} /> : <RxHamburgerMenu fontSize={30} />}
                     {
                         isOpen &&
-                        <div className="absolute -right-5 top-20 bg-dark-blue w-screen text-white">
+                        <div className="absolute -right-4 top-20 bg-dark-blue w-80 text-white rounded-xl">
                             {
                                 navOptions.map(item => {
                                     return (
