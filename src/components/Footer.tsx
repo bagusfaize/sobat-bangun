@@ -80,7 +80,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-span-12 md:col-span-5 gap-4 mt-4 md:mt-0">
+          <div className="col-span-12 md:col-span-5 gap-4 mt-7 md:mt-0">
             <div className="grid grid-cols-2" >
               {
                 link.map(item => {
@@ -99,7 +99,7 @@ export default function Footer() {
           {
             partnership.map(item => {
               return(
-                <div>
+                <div className="mb-7 md:mb-0">
                   <h1 className="mb-2">{item.title}</h1>
                   { item.partner.map(partner => (
                     <Image 
