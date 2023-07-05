@@ -80,7 +80,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-span-12 md:col-span-5 gap-4">
+          <div className="col-span-12 md:col-span-5 gap-4 mt-4 md:mt-0">
             <div className="grid grid-cols-2" >
               {
                 link.map(item => {
@@ -115,8 +115,8 @@ export default function Footer() {
             })
           }
         </div>
-        <div className="flex justify-between text-xs items-end">
-          <span className="flex items-center">
+        <div className="flex flex-col items-center sm:flex-row sm:justify-between text-xs items-end">
+          <span className="flex items-center mb-5 sm:mb-0">
             <p>Powered by : </p>
             <Image src="/images/logo_sig.png" alt="logo-sig" width={60} height={60} className="mx-4" />
           </span>
