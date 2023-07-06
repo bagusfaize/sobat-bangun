@@ -115,7 +115,7 @@ export default function Footer() {
             })
           }
         </div>
-        <div className="flex flex-col items-center sm:flex-row sm:justify-between text-xs items-end">
+        <div className="flex flex-col items-center sm:flex-row sm:justify-between text-xs lg:items-end">
           <span className="flex items-center mb-5 sm:mb-0">
             <p>Powered by : </p>
             <Image src="/images/logo_sig.png" alt="logo-sig" width={60} height={60} className="mx-4" />

@@ -31,7 +31,7 @@ export default function ImageWithDetails({ details }: ImageWithDetails) {
                 floor={floor}
                 bed={bed}
                 containerClassName="border-b border-gray-200"
-                childClassName="col-span-6 mb-4 lg:col-span-3"
+                childClassName="col-span-3"
             />
             <Pricing
                 designPrice={designPrice}

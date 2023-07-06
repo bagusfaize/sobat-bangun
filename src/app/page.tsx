@@ -27,7 +27,7 @@ export default function Home() {
               }
             </div>
           </div>
-          <div className="col-span-12 md:col-span-6 lg:col-span-4 mt-4 md:mt-0z">
+          <div className="col-span-12 md:col-span-6 lg:col-span-4 mt-4 md:mt-0">
             <DetailsCard details={details} />
             <div className="my-5">
               <MainTitle title="Testimoni" />
